@@ -1,0 +1,257 @@
+*{margin:0;padding:0;}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.herder{
+    height:50px;
+    background-color: white; 
+    border:1px solid #363636;
+    /*text-align: center;*/
+    line-height:50px;
+    font-weight: 300;
+    color:black;
+    font-size: 30px;
+    margin:5px;
+}
+.container{
+     /* width: 1905px;
+     height: 869px;
+     background-color: black;
+     margin: 6px; */
+    width: 99%;
+    height: 92%;
+    margin: 5px;
+    padding: 0;
+    background-color:white;
+    position: absolute;
+}
+.globalnumber{
+    text-align: center;
+    line-height:60px;
+    width: 322.78368479701305px;
+    height: 149.5173864238706px;
+    display: block;
+    position: absolute;
+    background-color: white;   /*transparent*/
+    border:1px solid #363636;
+    margin: 5px;
+}
+.confirmedbycountry{
+    text-align: center;
+    line-height:30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    left: 0px;
+    top: 160px;
+    width: 322.78368479701305px;
+    height: 614.5736810115867px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-top: 1px solid #363636;
+    border-left: 1px solid #363636;
+    border-right: 1px solid #363636;
+    border-bottom: 1px solid #363636;
+}
+.updatetime{
+    left: 0px;
+    top: 786px;
+    width: 322.78368479701305px;
+    height: 71.90893256454302px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    border:1px solid #363636;
+    margin: 5px;
+}
+.mapscreen{
+    left: 335px;
+    top: 0px;
+    width: 1040.6344372280817px;
+    height: 820px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-top: 1px solid #363636;
+    border-left: 1px solid #363636;
+    border-right: 1px solid #363636;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.deathandrecovered-up{
+    text-align: center;
+    left: 1388px;
+    top: 0px;
+    width: 500px;
+    height: 113.41578983489086px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-top: 1px solid #363636;
+    border-left: 1px solid #363636;
+    border-right: 1px solid #363636;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.deathandrecovered-down{
+    left: 1388px;
+    top: 113.41578983489086px;
+    width: 500px;
+    height: 368.5647783539546px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-left: 1px solid #363636;
+    border-right: 1px solid #363636;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cruve{
+    left: 1388px;
+    top: 516.9805681888454px;
+    width: 500px;
+    height: 319.0194318111547px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-top: 1px solid #363636;
+    border-left: 1px solid #363636;
+    border-right: 1px solid #363636;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.mapscreen-selection{
+    left: 335px;
+    top: 826px;
+    width: 1040.6344372280817px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    border-top: 1px solid #363636;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.deathandrecovered-selection{
+    left: 1388px;
+    top: 482px;
+    width: 500px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    border-top: 1px solid #363636;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cruve-selection{
+    left: 1388px;
+    top: 842px;
+    width: 500px;
+    height: 28px;
+    display: block;
+    position: absolute;
+    border-top: 1px solid #363636;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tabs-container{
+    margin-top: 0px;
+    margin-right: 0.75rem;
+    margin-bottom: 0px;
+    margin-left: 0.75rem;
+    display: block;
+}
+.tab-nav{
+    margin-top: -1px;
+    display: block;
+}
+.sortable-collection {
+    cursor: default;
+}
+
+.tab-nav .tab-title.is-active {
+    background-color: white;
+    border-bottom-color: #2493f2;
+}
+.tab-nav .tab-title:not(.is-active) {
+    background-color: rgb(201, 193, 193);
+    border-top-color: #c9c5c5;
+}
+.tab-nav .tab-title {
+    font-size: .875rem;
+    line-height: 1.5;
+    padding: 0 .375rem;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    border-right: 1px solid #363636;
+    border-left: 1px solid #363636;
+    border-top: 1px solid transparent;
+    color: inherit;
+    border-bottom: 2px solid #363636;
+}
+.tab-title {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: .875rem;
+    line-height: 1.5;
+    -webkit-transition: background,150ms linear;
+    transition: background,150ms linear;
+    padding: .375rem .75rem;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #333;
+    border: 1px solid #5c5c5c;
+    margin-right: -1px;
+    cursor: pointer;
+}
+
+.tab-nav .tab-title a {
+    padding: 1px .375rem;
+    width: auto;
+    cursor: pointer;
+    border: 1px solid transparent;
+    line-height: 1.5rem;
+    display: inline-block;
+    position: relative;
+    color: inherit;
+}
+a {
+    cursor: pointer;
+    outline: 0;
+    color: #2493f2;
+    text-decoration: none;
+}
+
+.confirmed_tr{
+    cursor: pointer;
+}
+.confirmed_th{
+    color: red;
+}
+
+.fourtype_tr{
+    cursor: pointer;
+}
+.fourtype_add_th{
+    color: red;
+}
+.fourtype_active_th{
+    color: red;
+}
+.fourtype_cure_th{
+    color: rgb(18, 216, 18);
+}
+.fourtype_death_th{
+    color: rgb(201, 179, 179);
+}
+
+
+

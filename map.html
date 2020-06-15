@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html dir="ltr" class="en-us en dj_webkit dj_chrome dj_contentbox">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>COVID-19</title>
+        <meta name="description" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://js.arcgis.com/4.15/esri/themes/light/main.css">
+        <link rel="stylesheet" href="css/test.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="js/echarts.min.js"></script>
+        <script src="https://js.arcgis.com/4.15/"></script>
+        <script src="js/listandcharts.js"></script>
+        <script src="js/mapApp.js"></script>
+        <style>.cke{visibility:hidden;}</style>
+    </head>
+    <body id="mapbody" class="tundra">
+        <div class="herder">
+            <span>COVID-19 Dashboard</span>
+            <span id="lastupdate"></span>
+        </div>
+        <div class="container">
+            <div class="globalnumber">
+                <p id="title1" style="font-weight: 300; font-size: 25px;">累计确诊</p>
+                <p id="globalnumber" style="font-weight: 520; font-size: 50px; color: red;"></p>
+            </div>
+            <div class="confirmedbycountry">
+                <p id="title2">各国家累计确诊</p>
+                <div id="countrylist1" style="overflow-y: auto; overflow-x: hidden; width: 100%; height: 565px;">
+                <table id="countrynumber" style="line-height: 30px;" rules="rows" width=322.78368479701305px;>
+                </table>
+                </div>
+            </div>
+            <div class="updatetime"></div>
+            <div id="mapDiv" class="mapscreen"></div>
+            <div class="deathandrecovered-up">
+                <p id="title3" style="font-weight: 300; font-size: 20px;">现有确诊</p>
+                <p id="fournumber" style="font-weight: 520; font-size: 50px; color: red;"></p>
+            </div>
+            <div class="deathandrecovered-down">
+                <div id="fourlist" style="overflow-y: auto; overflow-x: hidden; width: 100%; height: 360px;">
+                    <table id="fourtype" style="line-height: 30px;" rules="rows" width=500px;>
+                    </table>
+                </div>
+            </div>
+            <div class="cruve"></div>
+            <div class="mapscreen-selection">
+                <div class="tabs-container">
+                    <nav id="map_selection" class="tab-nav sortable-collection">
+                        <span id="confirmed" class="tab-title is-active">
+                            <a id="confirmed_a">
+                                <div id="confirmed_text">累计确诊</div>
+                            </a>
+                        </span>
+                        <span id="active" class="tab-title">
+                            <a id="active_a">
+                                <div id="active_text">现有确诊</div>
+                            </a>
+                        </span>
+                    </nav>
+                </div>
+            </div>
+            <div class="deathandrecovered-selection">
+                <div class="tabs-container">
+                    <nav id="map_selection" class="tab-nav sortable-collection">
+                        <span id="act" class="tab-title is-active">
+                            <a id="act_a">
+                                <div id="act_text">现有</div>
+                            </a>
+                        </span>
+                        <span id="rise"" class="tab-title">
+                            <a id="rise_a">
+                                <div id="rise_text">新增</div>
+                            </a>
+                        </span>
+                        <span id="cure" class="tab-title">
+                            <a id="cure_a">
+                                <div id="cure_text">治愈</div>
+                            </a>
+                        </span>
+                        <span id="death" class="tab-title">
+                            <a id="death_a">
+                                <div id="death_text">死亡</div>
+                            </a>
+                        </span>
+                    </nav>
+                </div>
+            </div>
+            <div class="cruve-selection">
+                <div class="tabs-container">
+                    <nav id="map_selection" class="tab-nav sortable-collection">
+                        <span id="confir" class="tab-title is-active">
+                            <a id="confir_a">
+                                <div id="confir_text">累计确诊</div>
+                            </a>
+                        </span>
+                        <span id="add" class="tab-title">
+                            <a id="add_a">
+                                <div id="add_text">新增确诊</div>
+                            </a>
+                        </span>
+                    </nav>
+                </div>
+            </div>
+
+
+
+        </div>
+    </body>
+</html>

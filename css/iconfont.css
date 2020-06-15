@@ -1,0 +1,22 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1591105490933'); /* IE9 */
+  src: url('iconfont.eot?t=1591105490933#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARQAAsAAAAACGgAAAQEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqEdIQCATYCJAMICwYABCAFhG0HLhsmB1GULUqC7CMhN8N6OE1KjdVZ2RSPrPHw/drv3N33zYGkmhi6Z9FExqfToJIgNkInMt0rNBv+Pe1lczowvXNGI+k6ZcUA4Kwv6Bf0eY6ZLp8PLD/QHKPSKqgSBzge0MAiCgtkWAVyYH7D2JUXsZxA1TBF0Ka1oyfgkhjtAnFFpYQBrpRWqqGFsqJYMjSJB1BQzu5YLgD3/u/jEywFF5lCzojbObGKBKYvsBnBevs/x7FLALzxzGCjyLEISMRBqXULa+hfxKqqWNmM12cnwUv1/3+Xu9p/PIIoMqR1SB3knhPP5p+qNMOfJ5TxhK9eO6G8oAbzcfPB2fyMnoeWR4/F+588eeQ1sNG7Wb4NtW15DqzMRCd0eD4N5bYhYwG5TUMNOY3lzZFlDSItoo2D5GEoF2kKaG7ObSpryBFtjCsfFG2dgOEeVTtSY6tIwwAC6+84qjW2jAwh6isPNUFwmLKxK9Bjb9WGgbE2ssVtc92GsqG23Hayw5w4PDSWO04iPdHQb8pFDkvpjT9QUNfV7cMj9lU694Hax8tHgcVHUipQc37LxhwRxVtmDqTmwdEWEdh21ivyyROfJ4+9Hz/0VH34yOjGsXXF2bm318UZhl1cEgE+tzOttyV8JSYt6I2S+8c9L80bcAfNl9eE7mycu5iRvpp+RW4j36zzuT/Ihr/CWOmywrxJ7X5fcsYFx4TWBK2SFH7U7OwOWy4puZTxsDyLz658/5jll5buw+qqd++rd8x3dyXXKQJs3EtA0Z3LRnqv+/u9wgfn1Jv+U0iWm0fmGhSpIarAZ9xHUJnTavN5wxx5rtEu4LmhxcGuL8eAPiJvv/3SnEMZZTxZUFnNSujfNoudAlnBrhyhTp9POkPf36tU/YC2OtjNhwbKoLPB60WXStI+ZGpnafyxcyF25fzg7aihoSBgCuA/N3HkN7/7b1xU80tC+A2/uWoJPP+k3Pf57exA+aXYgp+bkwD/v1KRCwxdlmQpFM48Kb80SVV1+AeGs+t1X2X/mwyHsv73aS8ZipErmyQm6iIKapZRVLaCqgU2o2t66FhFqmBeIUBom0am6RG5tlvERH2FggFfUdQOVlQdhfCUNdNBhS3oWBgTi0TDU1FqBBGPWwYmHES7Y5TE2DB6UuDTvTE6g+pC1ZRVsyEbLB6jj9GDkURRZzJxFKcTcag1WA2LjSXQBDoRjUUwlaOYzAR9FRW87EjKEUQcgG2gw4RhwkRChUuFoopAiIe75Zng3PfdYSgSxQpDrymqcHrD0DFQq0epUabagmgjjW9VdC21GZJQqGNiwnErHB0hDsoamjGxpp+ASihvFA0TgUlZVA9vAn0qqBTeVqo8vzzu6VZAlaHKwkzOpWtKKg0A') format('woff2'),
+  url('iconfont.woff?t=1591105490933') format('woff'),
+  url('iconfont.ttf?t=1591105490933') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1591105490933#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 45px;
+  color: black;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xgyq:before {
+  content: "\e60a";
+}
+
