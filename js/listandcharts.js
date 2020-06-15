@@ -213,7 +213,7 @@ $("#mapbody").ready(function(){
 function Ajax1(){
         //这里为用ajax获取用户信息并进行验证，如果账户密码不匹配则登录失败，如不需要验证用户信息，这段可不写
  $.ajax({
-    url : "/load",// 获取自己系统后台用户信息接口
+    url : "http://localhost:8080/load",// 获取自己系统后台用户信息接口
     type : "GET",
     dataType: "json",
     success : function(data) {
@@ -256,7 +256,7 @@ function Ajax1(){
 //请求时间序列数据
 function Ajax2(){
     $.ajax({
-       url : "/time_series",// 获取自己系统后台用户信息接口
+       url : "http://localhost:8080/time_series",// 获取自己系统后台用户信息接口
        type : "GET",
        dataType: "json",
        success : function(data){
@@ -395,7 +395,7 @@ function Ajax2(){
 //请求更新时间
 function Ajax3(){
     $.ajax({
-       url : "/updatetime",// 获取自己系统后台用户信息接口
+       url : "http://localhost:8080/updatetime",// 获取自己系统后台用户信息接口
        type : "GET",
        dataType: "json",
        success : function(data){

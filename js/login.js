@@ -15,7 +15,7 @@ function check(form){
     
 //这里为用ajax获取用户信息并进行验证，如果账户密码不匹配则登录失败，如不需要验证用户信息，这段可不写
  $.ajax({
-    url : "/login",// 获取自己系统后台用户信息接口 http://localhost:8080/index
+    url : "http://localhost:8080/login",// 获取自己系统后台用户信息接口 http://localhost:8080/index
     data :{password:password,accountName:accountName},
     type : "GET",
     dataType: "json",
